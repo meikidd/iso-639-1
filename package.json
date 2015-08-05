@@ -1,0 +1,27 @@
+{
+  "name": "iso-639-1",
+  "version": "0.1.0",
+  "description": "ISO-639-1 codes",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meikidd/iso-639-1.git"
+  },
+  "keywords": [
+    "ISO",
+    "ISO-639",
+    "ISO-639-1"
+  ],
+  "author": "meikidd <meikidd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meikidd/iso-639-1/issues"
+  },
+  "devDependencies": {
+    "babel": "~5.8.12"
+  },
+  "homepage": "https://github.com/meikidd/iso-639-1#readme"
+}
