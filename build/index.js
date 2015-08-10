@@ -20,6 +20,19 @@ var ISO6391 = (function () {
   }
 
   _createClass(ISO6391, null, [{
+    key: 'getLanguages',
+    value: function getLanguages(codes) {
+      var list = [];
+      for (var i = 0; i < codes.length; i++) {
+        list.push({
+          code: codes[i],
+          name: ISO6391.getName(codes[i]),
+          nativeName: ISO6391.getNativeName(codes[i])
+        });
+      }
+      return list;
+    }
+  }, {
     key: 'getName',
     value: function getName(code) {
       if (!ISO6391.validate(code)) return '';

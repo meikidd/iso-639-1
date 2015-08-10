@@ -1,4 +1,8 @@
 export var CODE_LIST = [
+  'aa',
+  'ab',
+  'af',
+  'ak'
   'ar', 
   'de', 
   'en', 
@@ -18,6 +22,22 @@ export var CODE_LIST = [
 ]
 
 export var LANGUAGES_LIST = {
+  aa: {
+    name: 'Afar',
+    nativeName: 'Afaraf'
+  }, 
+  ab: {
+    name: 'Abkhaz',
+    nativeName: 'аҧсуа бызшәа'
+  },
+  af: {
+    name: 'Afrikaans',
+    nativeName: 'Afrikaans'
+  }, 
+  ak: {
+    name: 'Akan',
+    nativeName: 'Akan'
+  },  
   ar: {
     name: 'Arabic',
     nativeName: 'اللغة العربية'

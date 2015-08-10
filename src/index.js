@@ -1,6 +1,17 @@
 import * as DATA from './data'
 
 export default class ISO6391 {
+  static getLanguages(codes) {
+    var list = []
+    for (var i = 0; i < codes.length; i++) {
+      list.push({
+        code:codes[i], 
+        name: ISO6391.getName(codes[i]),
+        nativeName: ISO6391.getNativeName(codes[i])
+      })
+    }
+    return list
+  }
   static getName(code) {
     if(!ISO6391.validate(code)) return ''
     return DATA.LANGUAGES_LIST[code].name
