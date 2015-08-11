@@ -1,9 +1,16 @@
 export var CODE_LIST = [
   'aa',
   'ab',
+  'ae',
   'af',
-  'ak'
-  'ar', 
+  'ak',
+  'am',
+  'an',
+  'ar',
+  'as', 
+  'av', 
+  'ay', 
+  'az', 
   'de', 
   'en', 
   'es', 
@@ -30,6 +37,10 @@ export var LANGUAGES_LIST = {
     name: 'Abkhaz',
     nativeName: 'аҧсуа бызшәа'
   },
+  ae: {
+    name: 'Avestan',
+    nativeName: 'avesta'
+  },
   af: {
     name: 'Afrikaans',
     nativeName: 'Afrikaans'
@@ -37,11 +48,35 @@ export var LANGUAGES_LIST = {
   ak: {
     name: 'Akan',
     nativeName: 'Akan'
-  },  
+  },
+  am: {
+    name: 'Amharic',
+    nativeName: 'አማርኛ'
+  },
+  an: {
+    name: 'Aragonese',
+    nativeName: 'aragonés'
+  }, 
   ar: {
     name: 'Arabic',
     nativeName: 'اللغة العربية'
-  }, 
+  },
+  as: {
+    name: 'Assamese',
+    nativeName: 'অসমীয়া'
+  },
+  av: {
+    name: 'Avaric',
+    nativeName: 'авар мацӀ'
+  },
+  ay: {
+    name: 'Aymara',
+    nativeName: 'aymar aru'
+  },
+  az: {
+    name: 'Azerbaijani',
+    nativeName: 'azərbaycan dili'
+  },
   de: {
     name: 'German',
     nativeName: 'Deutsch'
