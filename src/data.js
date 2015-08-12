@@ -11,6 +11,15 @@ export var CODE_LIST = [
   'av', 
   'ay', 
   'az', 
+  'ba',
+  'be',
+  'bg',
+  'bh',
+  'bi',
+  'bm',
+  'bn',
+  'br',
+  'bs',
   'de', 
   'en', 
   'es', 
@@ -76,6 +85,42 @@ export var LANGUAGES_LIST = {
   az: {
     name: 'Azerbaijani',
     nativeName: 'azərbaycan dili'
+  },
+  ba: {
+    name: 'Bashkir',
+    nativeName: 'башҡорт теле'
+  },
+  be: {
+    name: 'Belarusian',
+    nativeName: 'беларуская мова'
+  },
+  bg: {
+    name: 'Bulgarian',
+    nativeName: 'български език'
+  },
+  bh: {
+    name: 'Bihari',
+    nativeName: 'भोजपुरी'
+  },
+  bi: {
+    name: 'Bislama',
+    nativeName: 'Bislama'
+  },
+  bm: {
+    name: 'Bambara',
+    nativeName: 'bamanankan'
+  },
+  bn: {
+    name: 'Bengali',
+    nativeName: 'বাংলা'
+  },
+  br: {
+    name: 'Breton',
+    nativeName: 'brezhoneg'
+  },
+  bs: {
+    name: 'Bosnian',
+    nativeName: 'bosanski jezik'
   },
   de: {
     name: 'German',
