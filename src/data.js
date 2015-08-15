@@ -20,6 +20,13 @@ export var CODE_LIST = [
   'bn',
   'br',
   'bs',
+  'ca',
+  'ce',
+  'ch',
+  'co',
+  'cr',
+  'cs',
+  'cv',
   'de', 
   'en', 
   'es', 
@@ -121,6 +128,34 @@ export var LANGUAGES_LIST = {
   bs: {
     name: 'Bosnian',
     nativeName: 'bosanski jezik'
+  },
+  ca: {
+    name: 'Catalan',
+    nativeName: 'català'
+  },
+  ce: {
+    name: 'Chechen',
+    nativeName: 'нохчийн мотт'
+  },
+  ch: {
+    name: 'Chamorro',
+    nativeName: 'Chamoru'
+  },
+  co: {
+    name: 'Corsican',
+    nativeName: 'corsu'
+  },
+  cr: {
+    name: 'Cree',
+    nativeName: 'ᓀᐦᐃᔭᐍᐏᐣ'
+  },
+  cs: {
+    name: 'Czech',
+    nativeName: 'čeština'
+  },
+  cv: {
+    name: 'Chuvash',
+    nativeName: 'чӑваш чӗлхи'
   },
   de: {
     name: 'German',
