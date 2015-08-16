@@ -27,7 +27,10 @@ export var CODE_LIST = [
   'cr',
   'cs',
   'cv',
-  'de', 
+  'da',
+  'de',
+  'dv',
+  'dz',
   'en', 
   'es', 
   'fr', 
@@ -157,9 +160,21 @@ export var LANGUAGES_LIST = {
     name: 'Chuvash',
     nativeName: 'чӑваш чӗлхи'
   },
+  da: {
+    name: 'Danish',
+    nativeName: 'dansk'
+  },
   de: {
     name: 'German',
     nativeName: 'Deutsch'
+  },
+  dv: {
+    name: 'Divehi',
+    nativeName: 'Dhivehi'
+  },
+  dz: {
+    name: 'Dzongkha',
+    nativeName: 'རྫོང་ཁ'
   }, 
   en: {
     name: 'English',
