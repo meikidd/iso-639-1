@@ -31,8 +31,12 @@ export var CODE_LIST = [
   'de',
   'dv',
   'dz',
-  'en', 
+  'ee',
+  'en',
+  'eo',
   'es', 
+  'et',
+  'eu', 
   'fr', 
   'id', 
   'it', 
@@ -176,14 +180,30 @@ export var LANGUAGES_LIST = {
     name: 'Dzongkha',
     nativeName: 'རྫོང་ཁ'
   }, 
+  ee: {
+    name: 'Ewe',
+    nativeName: 'Eʋegbe'
+  },
   en: {
     name: 'English',
     nativeName: 'English'
+  },
+  eo: {
+    name: 'Esperanto',
+    nativeName: 'Esperanto'
   }, 
   es: {
     name: 'Spanish',
     nativeName: 'Español'
   }, 
+  et: {
+    name: 'Estonian',
+    nativeName: 'eesti'
+  },
+  eu: {
+    name: 'Basque',
+    nativeName: 'euskara'
+  },
   fr: {
     name: 'French',
     nativeName: 'Français'
