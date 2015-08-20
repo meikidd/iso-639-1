@@ -37,7 +37,14 @@ export var CODE_LIST = [
   'es', 
   'et',
   'eu', 
-  'fr', 
+  'ff',
+  'fi',
+  'fj',
+  'fr',
+  'ga', 
+  'gl',
+  'gn',
+  'gu',
   'id', 
   'it', 
   'ja', 
@@ -204,10 +211,38 @@ export var LANGUAGES_LIST = {
     name: 'Basque',
     nativeName: 'euskara'
   },
+  ff: {
+    name: 'Fula',
+    nativeName: 'Fulfulde'
+  },
+  fi: {
+    name: 'Finnish',
+    nativeName: 'suomi'
+  },
+  fj: {
+    name: 'Fijian',
+    nativeName: 'Vakaviti'
+  },
   fr: {
     name: 'French',
     nativeName: 'Français'
   }, 
+  ga: {
+    name: 'Irish',
+    nativeName: 'Gaeilge'
+  },
+  gl: {
+    name: 'Galician',
+    nativeName: 'galego'
+  },
+  gn: {
+    name: 'Guaraní',
+    nativeName: 'Avañe\'ẽ'
+  },
+  gu: {
+    name: 'Gujarati',
+    nativeName: 'ગુજરાતી'
+  },
   id: {
     name: 'Indonesian',
     nativeName: 'Indonesian'
