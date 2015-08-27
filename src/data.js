@@ -45,6 +45,23 @@ export var CODE_LIST = [
   'gl',
   'gn',
   'gu',
+
+  'cu',
+  'cy',
+  'fy',
+  'bo',
+  'gd'
+  'gv',
+  'hy',
+  'hr',
+  'ha',
+  'he',
+  'ht',
+  'hz',
+  'hi',
+  'ho',
+  'hu',
+
   'id', 
   'it', 
   'ja', 
@@ -135,6 +152,10 @@ export var LANGUAGES_LIST = {
     name: 'Bengali',
     nativeName: 'বাংলা'
   },
+  bo: {
+    name: 'Tibetan Standard',
+    nativeName: 'བོད་ཡིག'
+  },
   br: {
     name: 'Breton',
     nativeName: 'brezhoneg'
@@ -167,9 +188,17 @@ export var LANGUAGES_LIST = {
     name: 'Czech',
     nativeName: 'čeština'
   },
+  cu: {
+    name: 'Old Church Slavonic',
+    nativeName: 'ѩзыкъ словѣньскъ'
+  },
   cv: {
     name: 'Chuvash',
     nativeName: 'чӑваш чӗлхи'
+  },
+  cy: {
+    name: 'Welsh',
+    nativeName: 'Cymraeg'
   },
   da: {
     name: 'Danish',
@@ -227,9 +256,17 @@ export var LANGUAGES_LIST = {
     name: 'French',
     nativeName: 'Français'
   }, 
+  fy: {
+    name: 'Western Frisian',
+    nativeName: 'Frysk'
+  },
   ga: {
     name: 'Irish',
     nativeName: 'Gaeilge'
+  },
+  gd: {
+    name: 'Scottish Gaelic',
+    nativeName: 'Gàidhlig'
   },
   gl: {
     name: 'Galician',
@@ -242,6 +279,46 @@ export var LANGUAGES_LIST = {
   gu: {
     name: 'Gujarati',
     nativeName: 'ગુજરાતી'
+  },
+  gv: {
+    name: 'Manx',
+    nativeName: 'Gaelg'
+  },
+  ha: {
+    name: 'Haitian',
+    nativeName: 'هَوُسَ'
+  },
+  he: {
+    name: 'Hebrew',
+    nativeName: 'עברית'
+  },
+  hi: {
+    name: 'Hindi',
+    nativeName: 'हिन्दी'
+  },
+  ho: {
+    name: 'Hiri Motu',
+    nativeName: 'Hiri Motu'
+  },
+  hr: {
+    name: 'Croatian',
+    nativeName: 'hrvatski jezik'
+  },
+  ht: {
+    name: 'Haitian',
+    nativeName: 'Kreyòl ayisyen'
+  },
+  hu: {
+    name: 'Hungarian',
+    nativeName: 'magyar'
+  },
+  hy: {
+    name: 'Armenian',
+    nativeName: 'Հայերեն'
+  },
+  hz: {
+    name: 'Herero',
+    nativeName: 'Otjiherero'
   },
   id: {
     name: 'Indonesian',
