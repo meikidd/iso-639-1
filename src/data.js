@@ -18,6 +18,7 @@ export var CODE_LIST = [
   'bi',
   'bm',
   'bn',
+  'bo',
   'br',
   'bs',
   'ca',
@@ -26,7 +27,9 @@ export var CODE_LIST = [
   'co',
   'cr',
   'cs',
+  'cu',
   'cv',
+  'cy',
   'da',
   'de',
   'dv',
@@ -41,29 +44,32 @@ export var CODE_LIST = [
   'fi',
   'fj',
   'fr',
+  'fy',
   'ga', 
+  'gd'
   'gl',
   'gn',
   'gu',
-
-  'cu',
-  'cy',
-  'fy',
-  'bo',
-  'gd'
   'gv',
-  'hy',
-  'hr',
   'ha',
   'he',
-  'ht',
-  'hz',
   'hi',
   'ho',
+  'hr',
+  'ht',
   'hu',
-
-  'id', 
-  'it', 
+  'hy',
+  'hz',
+  'ia',
+  'id',
+  'ie',
+  'ig',
+  'ii',
+  'ik',
+  'io',
+  'is',
+  'it',
+  'iu',
   'ja', 
   'ko', 
   'nl', 
@@ -320,14 +326,46 @@ export var LANGUAGES_LIST = {
     name: 'Herero',
     nativeName: 'Otjiherero'
   },
+  ia: {
+    name: 'Interlingua',
+    nativeName: 'Interlingua'
+  },
   id: {
     name: 'Indonesian',
     nativeName: 'Indonesian'
   }, 
+  ie: {
+    name: 'Interlingue',
+    nativeName: 'Interlingue'
+  },
+  ig: {
+    name: 'Igbo',
+    nativeName: 'Asụsụ Igbo'
+  },
+  ii: {
+    name: 'Nuosu',
+    nativeName: 'ꆈꌠ꒿ Nuosuhxop'
+  },
+  ik: {
+    name: 'Inupiaq',
+    nativeName: 'Iñupiaq'
+  },
+  io: {
+    name: 'Ido',
+    nativeName: 'Ido'
+  },
+  is: {
+    name: 'Icelandic',
+    nativeName: 'Íslenska'
+  },
   it: {
     name: 'Italian',
     nativeName: 'Italiano'
   }, 
+  iu: {
+    name: 'Inuktitut',
+    nativeName: 'ᐃᓄᒃᑎᑐᑦ'
+  },
   ja: {
     name: 'Japanese',
     nativeName: '日本語'
