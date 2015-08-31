@@ -383,6 +383,10 @@ export var LANGUAGES_LIST = {
     name: 'Japanese',
     nativeName: '日本語'
   }, 
+  jv: {
+    name: 'Javanese',
+    nativeName: 'basa Jawa'
+  },
   kg: {
     name: 'Kongo',
     nativeName: 'Kikongo'
