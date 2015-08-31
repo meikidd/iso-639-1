@@ -70,8 +70,21 @@ export var CODE_LIST = [
   'is',
   'it',
   'iu',
-  'ja', 
+  'ja',
+  'jv',
+  'kg', 
+  'ki', 
+  'kj', 
+  'kk', 
+  'kl', 
+  'km', 
+  'kn', 
   'ko', 
+  'kr', 
+  'ks', 
+  'ku', 
+  'kv', 
+  'ky', 
   'nl', 
   'pt', 
   'ru', 
@@ -370,10 +383,58 @@ export var LANGUAGES_LIST = {
     name: 'Japanese',
     nativeName: '日本語'
   }, 
+  kg: {
+    name: 'Kongo',
+    nativeName: 'Kikongo'
+  },
+  ki: {
+    name: 'Kikuyu',
+    nativeName: 'Gĩkũyũ'
+  },
+  kj: {
+    name: 'Kwanyama',
+    nativeName: 'Kuanyama'
+  },
+  kk: {
+    name: 'Kazakh',
+    nativeName: 'қазақ тілі'
+  },
+  kl: {
+    name: 'Kalaallisut',
+    nativeName: 'kalaallisut'
+  },
+  km: {
+    name: 'Khmer',
+    nativeName: 'ខេមរភាសា'
+  },
+  kn: {
+    name: 'Kannada',
+    nativeName: 'ಕನ್ನಡ'
+  },
   ko: {
     name: 'Korean',
     nativeName: '한국어'
   }, 
+  kr: {
+    name: 'Kanuri',
+    nativeName: 'Kanuri'
+  },
+  ks: {
+    name: 'Kashmiri',
+    nativeName: 'कश्मीरी'
+  },
+  ku: {
+    name: 'Kurdish',
+    nativeName: 'Kurdî'
+  },
+  kv: {
+    name: 'Komi',
+    nativeName: 'коми кыв'
+  },
+  ky: {
+    name: 'Kyrgyz',
+    nativeName: 'Кыргызча'
+  },
   nl: {
     name: 'Dutch',
     nativeName: 'nederlands'
