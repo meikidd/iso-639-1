@@ -85,6 +85,15 @@ export var CODE_LIST = [
   'ku', 
   'kv', 
   'ky', 
+  'la',
+  'lb',
+  'lg',
+  'li',
+  'ln',
+  'lo',
+  'lt',
+  'lu',
+  'lv',
   'nl', 
   'pt', 
   'ru', 
@@ -438,6 +447,42 @@ export var LANGUAGES_LIST = {
   ky: {
     name: 'Kyrgyz',
     nativeName: 'Кыргызча'
+  },
+  la: {
+    name: 'Latin',
+    nativeName: 'latine'
+  },
+  lb: {
+    name: 'Luxembourgish',
+    nativeName: 'Lëtzebuergesch'
+  },
+  lg: {
+    name: 'Ganda',
+    nativeName: 'Luganda'
+  },
+  li: {
+    name: 'Limburgish',
+    nativeName: 'Limburgs'
+  },
+  ln: {
+    name: 'Lingala',
+    nativeName: 'Lingála'
+  },
+  lo: {
+    name: 'Lao',
+    nativeName: 'ພາສາ'
+  },
+  lt: {
+    name: 'Lithuanian',
+    nativeName: 'lietuvių kalba'
+  },
+  lu: {
+    name: 'Luba-Katanga',
+    nativeName: 'Tshiluba'
+  },
+  lv: {
+    name: 'Latvian',
+    nativeName: 'latviešu valoda'
   },
   nl: {
     name: 'Dutch',
