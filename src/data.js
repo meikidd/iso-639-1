@@ -46,7 +46,7 @@ export var CODE_LIST = [
   'fr',
   'fy',
   'ga', 
-  'gd'
+  'gd',
   'gl',
   'gn',
   'gu',
@@ -94,7 +94,27 @@ export var CODE_LIST = [
   'lt',
   'lu',
   'lv',
-  'nl', 
+  'mg',
+  'mh',
+  'mi',
+  'mk',
+  'ml',
+  'mn',
+  'mr',
+  'ms',
+  'mt',
+  'my',
+  'na',
+  'nb',
+  'nd',
+  'ne',
+  'ng',
+  'nl',
+  'nn',
+  'no',
+  'nr',
+  'nv',
+  'ny',
   'pt', 
   'ru', 
   'th', 
@@ -484,10 +504,90 @@ export var LANGUAGES_LIST = {
     name: 'Latvian',
     nativeName: 'latviešu valoda'
   },
+  mg: {
+    name: 'Malagasy',
+    nativeName: 'fiteny malagasy'
+  },
+  mh: {
+    name: 'Marshallese',
+    nativeName: 'Kajin M̧ajeļ'
+  },
+  mi: {
+    name: 'Māori',
+    nativeName: 'te reo Māori'
+  },
+  mk: {
+    name: 'Macedonian',
+    nativeName: 'македонски јазик'
+  },
+  ml: {
+    name: 'Malayalam',
+    nativeName: 'മലയാളം'
+  },
+  mn: {
+    name: 'Mongolian',
+    nativeName: 'Монгол хэл'
+  },
+  mr: {
+    name: 'Marathi',
+    nativeName: 'मराठी'
+  },
+  ms: {
+    name: 'Malay',
+    nativeName: 'هاس ملايو‎'
+  },
+  mt: {
+    name: 'Maltese',
+    nativeName: 'Malti'
+  },
+  my: {
+    name: 'Burmese',
+    nativeName: 'ဗမာစာ'
+  },
+  na: {
+    name: 'Nauru',
+    nativeName: 'Ekakairũ Naoero'
+  },
+  nb: {
+    name: 'Norwegian Bokmål',
+    nativeName: 'Norsk bokmål'
+  },
+  nd: {
+    name: 'Northern Ndebele',
+    nativeName: 'isiNdebele'
+  },
+  ne: {
+    name: 'Nepali',
+    nativeName: 'नेपाली'
+  },
+  ng: {
+    name: 'Ndonga',
+    nativeName: 'Owambo'
+  },
   nl: {
     name: 'Dutch',
     nativeName: 'nederlands'
   }, 
+  nn: {
+    name: 'Norwegian Nynorsk',
+    nativeName: 'Norsk nynorsk'
+  },
+  no: {
+    name: 'Norwegian',
+    nativeName: 'Norsk'
+  },
+  nr: {
+    name: 'Southern Ndebele',
+    nativeName: 'isiNdebele'
+  },
+  nv: {
+    name: 'Navajo',
+    nativeName: 'Diné bizaad'
+  },
+  ny: {
+    name: 'Chichewa',
+    nativeName: 'chiCheŵa'
+  },
   pt: {
     name: 'Portuguese',
     nativeName: 'Português'
