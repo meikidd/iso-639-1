@@ -115,8 +115,21 @@ export var CODE_LIST = [
   'nr',
   'nv',
   'ny',
-  'pt', 
-  'ru', 
+  'oc',
+  'oj',
+  'om',
+  'or',
+  'os',
+  'pa',
+  'pi',
+  'pl',
+  'ps',
+  'pt',
+  'qu',
+  'rm',
+  'rn',
+  'ro',
+  'ru',
   'th', 
   'tr', 
   'vi', 
@@ -588,10 +601,75 @@ export var LANGUAGES_LIST = {
     name: 'Chichewa',
     nativeName: 'chiCheŵa'
   },
+  'oc',
+  'oj',
+  'om',
+  'or',
+  'os',
+  'pa',
+  'pi',
+  'pl',
+  'ps',
+  'qu',
+  'rm',
+  'rn',
+  'ro',
+  oc: {
+    name: 'Occitan',
+    nativeName: 'occitan'
+  },
+  oj: {
+    name: 'Ojibwe',
+    nativeName: 'ᐊᓂᔑᓈᐯᒧᐎᓐ'
+  },
+  om: {
+    name: 'Oromo',
+    nativeName: 'Afaan Oromoo'
+  },
+  or: {
+    name: 'Oriya',
+    nativeName: 'ଓଡ଼ିଆ'
+  },
+  os: {
+    name: 'Ossetian',
+    nativeName: 'ирон æвзаг'
+  },
+  pa: {
+    name: 'Panjabi',
+    nativeName: 'ਪੰਜਾਬੀ'
+  },
+  pi: {
+    name: 'Pāli',
+    nativeName: 'पाऴि'
+  },
+  pl: {
+    name: 'Polish',
+    nativeName: 'język polski'
+  },
+  ps: {
+    name: 'Pashto',
+    nativeName: 'پښتو'
+  },
   pt: {
     name: 'Portuguese',
     nativeName: 'Português'
   }, 
+  qu: {
+    name: 'Quechua',
+    nativeName: 'Runa Simi'
+  },
+  rm: {
+    name: 'Romansh',
+    nativeName: 'rumantsch grischun'
+  },
+  rn: {
+    name: 'Kirundi',
+    nativeName: 'Ikirundi'
+  },
+  ro: {
+    name: 'Romanian',
+    nativeName: 'limba română'
+  },
   ru: {
     name: 'Russian',
     nativeName: 'Русский'
