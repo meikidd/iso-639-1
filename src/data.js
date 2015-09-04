@@ -130,6 +130,23 @@ export var CODE_LIST = [
   'rn',
   'ro',
   'ru',
+  'sa',
+  'sc',
+  'sd',
+  'se',
+  'sg',
+  'si',
+  'sk',
+  'sl',
+  'sm',
+  'so',
+  'sq',
+  'sr',
+  'ss',
+  'st',
+  'su',
+  'sv',
+  'sw',
   'th', 
   'tr', 
   'vi', 
@@ -601,19 +618,6 @@ export var LANGUAGES_LIST = {
     name: 'Chichewa',
     nativeName: 'chiCheŵa'
   },
-  'oc',
-  'oj',
-  'om',
-  'or',
-  'os',
-  'pa',
-  'pi',
-  'pl',
-  'ps',
-  'qu',
-  'rm',
-  'rn',
-  'ro',
   oc: {
     name: 'Occitan',
     nativeName: 'occitan'
@@ -674,6 +678,91 @@ export var LANGUAGES_LIST = {
     name: 'Russian',
     nativeName: 'Русский'
   }, 
+  'sa',
+  'sc',
+  'sd',
+  'se',
+  'sg',
+  'si',
+  'sk',
+  'sl',
+  'sm',
+  'so',
+  'sq',
+  'sr',
+  'ss',
+  'st',
+  'su',
+  'sv',
+  'sw',
+  sa:{
+    name: 'Sanskrit',
+    nativeName: 'संस्कृतम्'
+  },
+  sc:{
+    name: 'Sardinian',
+    nativeName: 'sardu'
+  },
+  sd:{
+    name: 'Sindhi',
+    nativeName: 'सिन्धी'
+  },
+  se:{
+    name: 'Northern Sami',
+    nativeName: 'Davvisámegiella'
+  },
+  sg:{
+    name: 'Sango',
+    nativeName: 'yângâ tî sängö'
+  },
+  si:{
+    name: 'Sinhala',
+    nativeName: 'සිංහල'
+  },
+  sk:{
+    name: 'Slovak',
+    nativeName: 'slovenčina'
+  },
+  sl:{
+    name: 'Slovene',
+    nativeName: 'slovenski jezik'
+  },
+  sm:{
+    name: 'Samoan',
+    nativeName: 'gagana fa\'a Samoa'
+  },
+  so:{
+    name: 'Somali',
+    nativeName: 'Soomaaliga'
+  },
+  sq:{
+    name: 'Albanian',
+    nativeName: 'Shqip'
+  },
+  sr:{
+    name: 'Serbian',
+    nativeName: 'српски језик'
+  },
+  ss:{
+    name: 'Swati',
+    nativeName: 'SiSwati'
+  },
+  st:{
+    name: 'Southern Sotho',
+    nativeName: 'Sesotho'
+  },
+  su:{
+    name: 'Sundanese',
+    nativeName: 'Basa Sunda'
+  },
+  sv:{
+    name: 'Swedish',
+    nativeName: 'svenska'
+  },
+  sw:{
+    name: 'Swahili',
+    nativeName: 'Kiswahili'
+  },
   th: {
     name: 'Thai',
     nativeName: 'ไทย'
