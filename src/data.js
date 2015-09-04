@@ -678,23 +678,6 @@ export var LANGUAGES_LIST = {
     name: 'Russian',
     nativeName: 'Русский'
   }, 
-  'sa',
-  'sc',
-  'sd',
-  'se',
-  'sg',
-  'si',
-  'sk',
-  'sl',
-  'sm',
-  'so',
-  'sq',
-  'sr',
-  'ss',
-  'st',
-  'su',
-  'sv',
-  'sw',
   sa:{
     name: 'Sanskrit',
     nativeName: 'संस्कृतम्'
