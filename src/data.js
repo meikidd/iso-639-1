@@ -147,8 +147,20 @@ export var CODE_LIST = [
   'su',
   'sv',
   'sw',
-  'th', 
-  'tr', 
+  'ta',
+  'te',
+  'tg',
+  'th',
+  'ti',
+  'tk',
+  'tl',
+  'tn',
+  'to',
+  'tr',
+  'ts',
+  'tt',
+  'tw',
+  'ty',
   'vi', 
   'zh'
 ]
@@ -746,13 +758,61 @@ export var LANGUAGES_LIST = {
     name: 'Swahili',
     nativeName: 'Kiswahili'
   },
+  ta: {
+    name: 'Tamil',
+    nativeName: 'தமிழ்'
+  }, 
+  te: {
+    name: 'Telugu',
+    nativeName: 'తెలుగు'
+  }, 
+  tg: {
+    name: 'Tajik',
+    nativeName: 'тоҷикӣ'
+  }, 
   th: {
     name: 'Thai',
     nativeName: 'ไทย'
   }, 
+  ti: {
+    name: 'Tigrinya',
+    nativeName: 'ትግርኛ'
+  }, 
+  tk: {
+    name: 'Turkmen',
+    nativeName: 'Türkmen'
+  }, 
+  tl: {
+    name: 'Tagalog',
+    nativeName: 'Wikang Tagalog'
+  }, 
+  tn: {
+    name: 'Tswana',
+    nativeName: 'Setswana'
+  }, 
+  to: {
+    name: 'Tonga',
+    nativeName: 'faka Tonga'
+  }, 
   tr: {
     name: 'Turkish',
     nativeName: 'Türkçe'
+  }, 
+  ts: {
+    name: 'Tsonga',
+    nativeName: 'Xitsonga'
+  }, 
+  tt: {
+    name: 'Tatar',
+    nativeName: 'татар теле'
+  }, 
+  tw: {
+    name: 'Twi',
+    nativeName: 'Twi'
+  }, 
+  ty: {
+    name: 'Tahitian',
+    nativeName: 'Reo Tahiti'
   }, 
   vi: {
     name: 'Vietnamese',
