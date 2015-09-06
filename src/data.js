@@ -161,8 +161,21 @@ export var CODE_LIST = [
   'tt',
   'tw',
   'ty',
-  'vi', 
-  'zh'
+  'ug',
+  'uk',
+  'ur',
+  'uz',
+  've',
+  'vi',
+  'vo',
+  'wa',
+  'wo',
+  'xh',
+  'yi',
+  'yo',
+  'za',
+  'zh',
+  'zu'
 ]
 
 export var LANGUAGES_LIST = {
@@ -814,12 +827,64 @@ export var LANGUAGES_LIST = {
     name: 'Tahitian',
     nativeName: 'Reo Tahiti'
   }, 
+  ug: {
+    name: 'Uyghur',
+    nativeName: 'ئۇيغۇرچە‎'
+  },
+  uk: {
+    name: 'Ukrainian',
+    nativeName: 'українська мова'
+  },
+  ur: {
+    name: 'Urdu',
+    nativeName: 'اردو'
+  },
+  uz: {
+    name: 'Uzbek',
+    nativeName: 'Ўзбек'
+  },
+  ve: {
+    name: 'Venda',
+    nativeName: 'Tshivenḓa'
+  },
   vi: {
     name: 'Vietnamese',
     nativeName: 'Việt Nam'
+  },
+  vo: {
+    name: 'Volapük',
+    nativeName: 'Volapük'
+  },
+  wa: {
+    name: 'Walloon',
+    nativeName: 'walon'
+  },
+  wo: {
+    name: 'Wolof',
+    nativeName: 'Wollof'
+  },
+  xh: {
+    name: 'Xhosa',
+    nativeName: 'isiXhosa'
+  },
+  yi: {
+    name: 'Yiddish',
+    nativeName: 'ייִדיש'
+  },
+  yo: {
+    name: 'Yoruba',
+    nativeName: 'Yorùbá'
+  },
+  za: {
+    name: 'Zhuang',
+    nativeName: 'Saɯ cueŋƅ'
   }, 
   zh: {
     name: 'Chinese',
     nativeName: '中文'
+  },
+  zu: {
+    name: 'Zulu',
+    nativeName: 'isiZulu'
   }
 }
