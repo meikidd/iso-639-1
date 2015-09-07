@@ -35,14 +35,17 @@ export var CODE_LIST = [
   'dv',
   'dz',
   'ee',
+  'el',
   'en',
   'eo',
   'es', 
   'et',
   'eu', 
+  'fa',
   'ff',
   'fi',
   'fj',
+  'fo',
   'fr',
   'fy',
   'ga', 
@@ -72,6 +75,7 @@ export var CODE_LIST = [
   'iu',
   'ja',
   'jv',
+  'ka',
   'kg', 
   'ki', 
   'kj', 
@@ -84,6 +88,7 @@ export var CODE_LIST = [
   'ks', 
   'ku', 
   'kv', 
+  'kw',
   'ky', 
   'la',
   'lb',
@@ -130,6 +135,7 @@ export var CODE_LIST = [
   'rn',
   'ro',
   'ru',
+  'rw',
   'sa',
   'sc',
   'sd',
@@ -139,6 +145,7 @@ export var CODE_LIST = [
   'sk',
   'sl',
   'sm',
+  'sn',
   'so',
   'sq',
   'sr',
@@ -323,6 +330,10 @@ export var LANGUAGES_LIST = {
     name: 'Ewe',
     nativeName: 'Eʋegbe'
   },
+  el: {
+    name: 'Greek',
+    nativeName: 'ελληνικά'
+  },
   en: {
     name: 'English',
     nativeName: 'English'
@@ -343,6 +354,10 @@ export var LANGUAGES_LIST = {
     name: 'Basque',
     nativeName: 'euskara'
   },
+  fa: {
+    name: 'Persian',
+    nativeName: 'فارسی'
+  },
   ff: {
     name: 'Fula',
     nativeName: 'Fulfulde'
@@ -354,6 +369,10 @@ export var LANGUAGES_LIST = {
   fj: {
     name: 'Fijian',
     nativeName: 'Vakaviti'
+  },
+  fo: {
+    name: 'Faroese',
+    nativeName: 'føroyskt'
   },
   fr: {
     name: 'French',
@@ -471,6 +490,10 @@ export var LANGUAGES_LIST = {
     name: 'Javanese',
     nativeName: 'basa Jawa'
   },
+  ka: {
+    name: 'Georgian',
+    nativeName: 'ქართული'
+  },
   kg: {
     name: 'Kongo',
     nativeName: 'Kikongo'
@@ -518,6 +541,10 @@ export var LANGUAGES_LIST = {
   kv: {
     name: 'Komi',
     nativeName: 'коми кыв'
+  },
+  kw: {
+    name: 'Cornish',
+    nativeName: 'Kernewek'
   },
   ky: {
     name: 'Kyrgyz',
@@ -703,6 +730,10 @@ export var LANGUAGES_LIST = {
     name: 'Russian',
     nativeName: 'Русский'
   }, 
+  rw: {
+    name: 'Kinyarwanda',
+    nativeName: 'Ikinyarwanda'
+  },
   sa:{
     name: 'Sanskrit',
     nativeName: 'संस्कृतम्'
@@ -738,6 +769,10 @@ export var LANGUAGES_LIST = {
   sm:{
     name: 'Samoan',
     nativeName: 'gagana fa\'a Samoa'
+  },
+  sn: {
+    name: 'Shona',
+    nativeName: 'chiShona'
   },
   so:{
     name: 'Somali',
