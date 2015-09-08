@@ -1,6 +1,6 @@
 {
   "name": "iso-639-1",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "ISO-639-1 codes",
   "main": "build/index.js",
   "scripts": {
@@ -14,7 +14,9 @@
   "keywords": [
     "ISO",
     "ISO-639",
-    "ISO-639-1"
+    "ISO-639-1",
+    "language",
+    "language code"
   ],
   "author": "meikidd <meikidd@gmail.com>",
   "license": "MIT",
