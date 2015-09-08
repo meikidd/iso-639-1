@@ -4,7 +4,8 @@
   "description": "ISO-639-1 codes",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src --out-dir build"
+    "build": "babel src --out-dir build",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
     "url": "https://github.com/meikidd/iso-639-1/issues"
   },
   "devDependencies": {
-    "babel": "~5.8.12"
+    "babel": "~5.8.12",
+    "mocha": "*"
   },
   "homepage": "https://github.com/meikidd/iso-639-1#readme"
 }
