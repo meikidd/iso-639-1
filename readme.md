@@ -1,5 +1,8 @@
 # ISO-639-1
+[![NPM version][npm-image]][npm-url]
 
+[npm-image]: https://img.shields.io/npm/v/iso-639-1.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/iso-639-1
 
 Simple interface for [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language codes
 
