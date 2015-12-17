@@ -53,8 +53,8 @@ var ISO6391 = require('./iso-639-1')
 console.log(ISO6391.getName('zh')) // 'Chinese'
 console.log(ISO6391.getNativeName('zh')) // '中文'
 
-console.log(ISO6391.getCode('Chinese')) // 'en'
-console.log(ISO6391.getCode('中文')) // 'en'
+console.log(ISO6391.getCode('Chinese')) // 'zh'
+console.log(ISO6391.getCode('中文')) // 'zh'
 
 console.log(ISO6391.validate('en')) // true
 console.log(ISO6391.validate('xxx')) // false
