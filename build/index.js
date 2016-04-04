@@ -39,10 +39,28 @@ var ISO6391 = (function () {
       return DATA.LANGUAGES_LIST[code].name;
     }
   }, {
+    key: 'getAllNames',
+    value: function getAllNames() {
+      var list = [];
+      for (var code in DATA.LANGUAGES_LIST) {
+        list.push(DATA.LANGUAGES_LIST[code].name);
+      }
+      return list;
+    }
+  }, {
     key: 'getNativeName',
     value: function getNativeName(code) {
       if (!ISO6391.validate(code)) return '';
       return DATA.LANGUAGES_LIST[code].nativeName;
+    }
+  }, {
+    key: 'getAllNativeNames',
+    value: function getAllNativeNames() {
+      var list = [];
+      for (var code in DATA.LANGUAGES_LIST) {
+        list.push(DATA.LANGUAGES_LIST[code].nativeName);
+      }
+      return list;
     }
   }, {
     key: 'getCode',
@@ -53,6 +71,11 @@ var ISO6391 = (function () {
         if (language.name === name || language.nativeName === name) return code;
       }
       return '';
+    }
+  }, {
+    key: 'getAllCodes',
+    value: function getAllCodes() {
+      return DATA.CODE_LIST;
     }
   }, {
     key: 'validate',
