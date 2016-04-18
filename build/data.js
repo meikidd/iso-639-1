@@ -469,7 +469,7 @@ var LANGUAGES_LIST = {
   },
   nl: {
     name: 'Dutch',
-    nativeName: 'nederlands'
+    nativeName: 'Nederlands'
   },
   nn: {
     name: 'Norwegian Nynorsk',
