@@ -228,7 +228,7 @@ var LANGUAGES_LIST = {
     nativeName: 'Gaelg'
   },
   ha: {
-    name: 'Haitian',
+    name: 'Hausa',
     nativeName: 'هَوُسَ'
   },
   he: {
