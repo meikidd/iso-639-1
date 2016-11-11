@@ -1,195 +1,8 @@
-export var CODE_LIST = [
-  'aa',
-  'ab',
-  'ae',
-  'af',
-  'ak',
-  'am',
-  'an',
-  'ar',
-  'as', 
-  'av', 
-  'ay', 
-  'az', 
-  'ba',
-  'be',
-  'bg',
-  'bh',
-  'bi',
-  'bm',
-  'bn',
-  'bo',
-  'br',
-  'bs',
-  'ca',
-  'ce',
-  'ch',
-  'co',
-  'cr',
-  'cs',
-  'cu',
-  'cv',
-  'cy',
-  'da',
-  'de',
-  'dv',
-  'dz',
-  'ee',
-  'el',
-  'en',
-  'eo',
-  'es', 
-  'et',
-  'eu', 
-  'fa',
-  'ff',
-  'fi',
-  'fj',
-  'fo',
-  'fr',
-  'fy',
-  'ga', 
-  'gd',
-  'gl',
-  'gn',
-  'gu',
-  'gv',
-  'ha',
-  'he',
-  'hi',
-  'ho',
-  'hr',
-  'ht',
-  'hu',
-  'hy',
-  'hz',
-  'ia',
-  'id',
-  'ie',
-  'ig',
-  'ii',
-  'ik',
-  'io',
-  'is',
-  'it',
-  'iu',
-  'ja',
-  'jv',
-  'ka',
-  'kg', 
-  'ki', 
-  'kj', 
-  'kk', 
-  'kl', 
-  'km', 
-  'kn', 
-  'ko', 
-  'kr', 
-  'ks', 
-  'ku', 
-  'kv', 
-  'kw',
-  'ky', 
-  'la',
-  'lb',
-  'lg',
-  'li',
-  'ln',
-  'lo',
-  'lt',
-  'lu',
-  'lv',
-  'mg',
-  'mh',
-  'mi',
-  'mk',
-  'ml',
-  'mn',
-  'mr',
-  'ms',
-  'mt',
-  'my',
-  'na',
-  'nb',
-  'nd',
-  'ne',
-  'ng',
-  'nl',
-  'nn',
-  'no',
-  'nr',
-  'nv',
-  'ny',
-  'oc',
-  'oj',
-  'om',
-  'or',
-  'os',
-  'pa',
-  'pi',
-  'pl',
-  'ps',
-  'pt',
-  'qu',
-  'rm',
-  'rn',
-  'ro',
-  'ru',
-  'rw',
-  'sa',
-  'sc',
-  'sd',
-  'se',
-  'sg',
-  'si',
-  'sk',
-  'sl',
-  'sm',
-  'sn',
-  'so',
-  'sq',
-  'sr',
-  'ss',
-  'st',
-  'su',
-  'sv',
-  'sw',
-  'ta',
-  'te',
-  'tg',
-  'th',
-  'ti',
-  'tk',
-  'tl',
-  'tn',
-  'to',
-  'tr',
-  'ts',
-  'tt',
-  'tw',
-  'ty',
-  'ug',
-  'uk',
-  'ur',
-  'uz',
-  've',
-  'vi',
-  'vo',
-  'wa',
-  'wo',
-  'xh',
-  'yi',
-  'yo',
-  'za',
-  'zh',
-  'zu'
-]
-
-export var LANGUAGES_LIST = {
+const LANGUAGES_LIST = {
   aa: {
     name: 'Afar',
     nativeName: 'Afaraf'
-  }, 
+  },
   ab: {
     name: 'Abkhaz',
     nativeName: 'аҧсуа бызшәа'
@@ -201,7 +14,7 @@ export var LANGUAGES_LIST = {
   af: {
     name: 'Afrikaans',
     nativeName: 'Afrikaans'
-  }, 
+  },
   ak: {
     name: 'Akan',
     nativeName: 'Akan'
@@ -213,7 +26,7 @@ export var LANGUAGES_LIST = {
   an: {
     name: 'Aragonese',
     nativeName: 'aragonés'
-  }, 
+  },
   ar: {
     name: 'Arabic',
     nativeName: 'اللغة العربية'
@@ -325,7 +138,7 @@ export var LANGUAGES_LIST = {
   dz: {
     name: 'Dzongkha',
     nativeName: 'རྫོང་ཁ'
-  }, 
+  },
   ee: {
     name: 'Ewe',
     nativeName: 'Eʋegbe'
@@ -341,11 +154,11 @@ export var LANGUAGES_LIST = {
   eo: {
     name: 'Esperanto',
     nativeName: 'Esperanto'
-  }, 
+  },
   es: {
     name: 'Spanish',
     nativeName: 'Español'
-  }, 
+  },
   et: {
     name: 'Estonian',
     nativeName: 'eesti'
@@ -377,7 +190,7 @@ export var LANGUAGES_LIST = {
   fr: {
     name: 'French',
     nativeName: 'Français'
-  }, 
+  },
   fy: {
     name: 'Western Frisian',
     nativeName: 'Frysk'
@@ -449,7 +262,7 @@ export var LANGUAGES_LIST = {
   id: {
     name: 'Indonesian',
     nativeName: 'Indonesian'
-  }, 
+  },
   ie: {
     name: 'Interlingue',
     nativeName: 'Interlingue'
@@ -477,7 +290,7 @@ export var LANGUAGES_LIST = {
   it: {
     name: 'Italian',
     nativeName: 'Italiano'
-  }, 
+  },
   iu: {
     name: 'Inuktitut',
     nativeName: 'ᐃᓄᒃᑎᑐᑦ'
@@ -485,7 +298,7 @@ export var LANGUAGES_LIST = {
   ja: {
     name: 'Japanese',
     nativeName: '日本語'
-  }, 
+  },
   jv: {
     name: 'Javanese',
     nativeName: 'basa Jawa'
@@ -525,7 +338,7 @@ export var LANGUAGES_LIST = {
   ko: {
     name: 'Korean',
     nativeName: '한국어'
-  }, 
+  },
   kr: {
     name: 'Kanuri',
     nativeName: 'Kanuri'
@@ -649,7 +462,7 @@ export var LANGUAGES_LIST = {
   nl: {
     name: 'Dutch',
     nativeName: 'Nederlands'
-  }, 
+  },
   nn: {
     name: 'Norwegian Nynorsk',
     nativeName: 'Norsk nynorsk'
@@ -709,7 +522,7 @@ export var LANGUAGES_LIST = {
   pt: {
     name: 'Portuguese',
     nativeName: 'Português'
-  }, 
+  },
   qu: {
     name: 'Quechua',
     nativeName: 'Runa Simi'
@@ -729,44 +542,44 @@ export var LANGUAGES_LIST = {
   ru: {
     name: 'Russian',
     nativeName: 'Русский'
-  }, 
+  },
   rw: {
     name: 'Kinyarwanda',
     nativeName: 'Ikinyarwanda'
   },
-  sa:{
+  sa: {
     name: 'Sanskrit',
     nativeName: 'संस्कृतम्'
   },
-  sc:{
+  sc: {
     name: 'Sardinian',
     nativeName: 'sardu'
   },
-  sd:{
+  sd: {
     name: 'Sindhi',
     nativeName: 'सिन्धी'
   },
-  se:{
+  se: {
     name: 'Northern Sami',
     nativeName: 'Davvisámegiella'
   },
-  sg:{
+  sg: {
     name: 'Sango',
     nativeName: 'yângâ tî sängö'
   },
-  si:{
+  si: {
     name: 'Sinhala',
     nativeName: 'සිංහල'
   },
-  sk:{
+  sk: {
     name: 'Slovak',
     nativeName: 'slovenčina'
   },
-  sl:{
+  sl: {
     name: 'Slovene',
     nativeName: 'slovenski jezik'
   },
-  sm:{
+  sm: {
     name: 'Samoan',
     nativeName: 'gagana fa\'a Samoa'
   },
@@ -774,94 +587,94 @@ export var LANGUAGES_LIST = {
     name: 'Shona',
     nativeName: 'chiShona'
   },
-  so:{
+  so: {
     name: 'Somali',
     nativeName: 'Soomaaliga'
   },
-  sq:{
+  sq: {
     name: 'Albanian',
     nativeName: 'Shqip'
   },
-  sr:{
+  sr: {
     name: 'Serbian',
     nativeName: 'српски језик'
   },
-  ss:{
+  ss: {
     name: 'Swati',
     nativeName: 'SiSwati'
   },
-  st:{
+  st: {
     name: 'Southern Sotho',
     nativeName: 'Sesotho'
   },
-  su:{
+  su: {
     name: 'Sundanese',
     nativeName: 'Basa Sunda'
   },
-  sv:{
+  sv: {
     name: 'Swedish',
     nativeName: 'svenska'
   },
-  sw:{
+  sw: {
     name: 'Swahili',
     nativeName: 'Kiswahili'
   },
   ta: {
     name: 'Tamil',
     nativeName: 'தமிழ்'
-  }, 
+  },
   te: {
     name: 'Telugu',
     nativeName: 'తెలుగు'
-  }, 
+  },
   tg: {
     name: 'Tajik',
     nativeName: 'тоҷикӣ'
-  }, 
+  },
   th: {
     name: 'Thai',
     nativeName: 'ไทย'
-  }, 
+  },
   ti: {
     name: 'Tigrinya',
     nativeName: 'ትግርኛ'
-  }, 
+  },
   tk: {
     name: 'Turkmen',
     nativeName: 'Türkmen'
-  }, 
+  },
   tl: {
     name: 'Tagalog',
     nativeName: 'Wikang Tagalog'
-  }, 
+  },
   tn: {
     name: 'Tswana',
     nativeName: 'Setswana'
-  }, 
+  },
   to: {
     name: 'Tonga',
     nativeName: 'faka Tonga'
-  }, 
+  },
   tr: {
     name: 'Turkish',
     nativeName: 'Türkçe'
-  }, 
+  },
   ts: {
     name: 'Tsonga',
     nativeName: 'Xitsonga'
-  }, 
+  },
   tt: {
     name: 'Tatar',
     nativeName: 'татар теле'
-  }, 
+  },
   tw: {
     name: 'Twi',
     nativeName: 'Twi'
-  }, 
+  },
   ty: {
     name: 'Tahitian',
     nativeName: 'Reo Tahiti'
-  }, 
+  },
   ug: {
     name: 'Uyghur',
     nativeName: 'ئۇيغۇرچە‎'
@@ -913,7 +726,7 @@ export var LANGUAGES_LIST = {
   za: {
     name: 'Zhuang',
     nativeName: 'Saɯ cueŋƅ'
-  }, 
+  },
   zh: {
     name: 'Chinese',
     nativeName: '中文'
@@ -923,3 +736,5 @@ export var LANGUAGES_LIST = {
     nativeName: 'isiZulu'
   }
 }
+
+export default LANGUAGES_LIST

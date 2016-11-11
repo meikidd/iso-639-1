@@ -1,81 +1,56 @@
-var assert = require('assert')
-var ISO6391 = require('../build/index')
-var DATA = require('../build/data')
-var codeList = DATA.CODE_LIST
+import assert from 'assert';
+import ISO6391 from '../src/index';
+import LANGUAGES_LIST from '../src/data';
 
-var nameList = []
-var nativeNameList = []
+describe('getName()', () => {
+  it('en', () => assert.equal(ISO6391.getName('en'), 'English'))
+  it('zh', () => assert.equal(ISO6391.getName('zh'), 'Chinese'))
+})
 
-for( var code in DATA.LANGUAGES_LIST ){
-  nameList.push( DATA.LANGUAGES_LIST[code].name)
-  nativeNameList.push( DATA.LANGUAGES_LIST[code].nativeName)
-}
+describe('getNativeName()', () => {
+  it('en', () => assert.equal(ISO6391.getNativeName('en'), 'English'))
+  it('zh', () => assert.equal(ISO6391.getNativeName('zh'), '中文'))
+})
 
-describe('getName()', function() {
-  it('en', function(){
-    assert.equal(ISO6391.getName('en'), 'English')
-  })
-  it('zh', function(){
-    assert.equal(ISO6391.getName('zh'), 'Chinese')
+describe('getAllNames()', () => {
+  it('All languages english names match', () => assert.deepEqual(ISO6391.getAllNames(), Object.values(LANGUAGES_LIST).map(l => l.name)))
+})
+
+describe('getAllNativeNames()', () => {
+  it('All languages native names match', () => {
+    assert.deepEqual(ISO6391.getAllNativeNames(), Object.values(LANGUAGES_LIST).map(l => l.nativeName))
   })
 })
 
-describe('getNativeName()', function() {
-  it('en', function(){
-    assert.equal(ISO6391.getNativeName('en'), 'English')
-  })
-  it('zh', function(){
-    assert.equal(ISO6391.getNativeName('zh'), '中文')
-  })
+describe('getCode()', () => {
+  it('English', () => assert.equal(ISO6391.getCode('English'), 'en'))
+  it('Chinese', () => assert.equal(ISO6391.getCode('Chinese'), 'zh'))
+  it('中文', () => assert.equal(ISO6391.getCode('中文'), 'zh'))
 })
 
-describe( 'getAllNames()', function(){
-    it('All languages english names match',function(){
-      assert.deepEqual(ISO6391.getAllNames(), nameList)
-    })
+describe('getAllCodes()', () => {
+  it('All Codes Match', () => assert.deepEqual(ISO6391.getAllCodes(), Object.keys(LANGUAGES_LIST)))
 })
 
-describe( 'getAllNativeNames()', function(){
-    it('All languages native names match',function(){
-      assert.deepEqual(ISO6391.getAllNativeNames(), nativeNameList)
-    })
+describe('validate()', () => {
+  it('en', () => assert.equal(ISO6391.validate('en'), true))
+  it('zh', () => assert.equal(ISO6391.validate('zh'), true))
+  it('aa', () => assert.equal(ISO6391.validate('aa'), true))
+  it('bb', () => assert.equal(ISO6391.validate('bb'), false))
 })
 
-describe('getCode()', function() {
-  it('English', function(){
-    assert.equal(ISO6391.getCode('English'), 'en')
-  })
-  it('Chinese', function(){
-    assert.equal(ISO6391.getCode('Chinese'), 'zh')
-  })
-  it('中文', function(){
-    assert.equal(ISO6391.getCode('中文'), 'zh')
-  })
-})
-
-describe('getAllCodes()', function() {
-  it( 'All Codes Match', function(){
-    assert.deepEqual(ISO6391.getAllCodes(), codeList)
-  })
-})
-
-describe('validate()', function() {
-  it('en', function(){
-    assert.equal(ISO6391.validate('en'), true)
-  })
-  it('zh', function(){
-    assert.equal(ISO6391.validate('zh'), true)
-  })
-  it('aa', function(){
-    assert.equal(ISO6391.validate('aa'), true)
-  })
-  it('bb', function(){
-    assert.equal(ISO6391.validate('bb'), false)
-  })
-})
-
-describe('getLanguages()', function() {
-  it('[en,zh]', function(){
-    assert.deepEqual(ISO6391.getLanguages(['en','zh']), [{code:'en',name:'English',nativeName:'English'},{code:'zh',name:'Chinese',nativeName:'中文'}])
-  })
+describe('getLanguages()', () => {
+  it('[en,zh]', () => assert.deepEqual(ISO6391.getLanguages(['en', 'zh']), [
+      {
+        code: 'en',
+        name: 'English',
+        nativeName: 'English'
+      },
+      {
+        code: 'zh',
+        name: 'Chinese',
+        nativeName: '中文'
+      }
+    ])
+  )
 })
