@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src --out-dir build",
-    "test": "mocha --require babel-core/register"
+    "test": "mocha --require babel-core/register --harmony_array_includes"
   },
   "repository": {
     "type": "git",
