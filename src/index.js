@@ -17,7 +17,7 @@ export default class ISO6391 {
 
   static getCode = (name) => {
     const [code] = Object.entries(LANGUAGES_LIST)
-      .find(([code, language]) => language.name === name || language.nativeName === name)
+      .find(([code, language]) => language.name.toLowerCase() === name.toLowerCase() || language.nativeName.toLowerCase() === name.toLowerCase())
 
     return code === undefined ? '' : code
   }
