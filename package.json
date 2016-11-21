@@ -1,6 +1,6 @@
 {
   "name": "iso-639-1",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "ISO-639-1 codes",
   "main": "build/index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "mocha": "^3.1.2"
   },
   "homepage": "https://github.com/meikidd/iso-639-1#readme",
-  "engines" : { 
-    "node" : ">=6.0"
+  "engines": {
+    "node": ">=6.0"
   }
 }
