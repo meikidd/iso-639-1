@@ -80,7 +80,7 @@ ISO6391.getCode = function (name) {
         code = _ref6[0],
         language = _ref6[1];
 
-    return language.name === name || language.nativeName === name;
+    return language.name.toLowerCase() === name.toLowerCase() || language.nativeName.toLowerCase() === name.toLowerCase();
   }),
       _Object$entries$find2 = (0, _slicedToArray3.default)(_Object$entries$find, 1),
       code = _Object$entries$find2[0];

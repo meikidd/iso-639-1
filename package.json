@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src --out-dir build",
-    "test": "mocha --require babel-core/register --harmony_array_includes"
+    "test": "mocha --require babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -34,5 +34,8 @@
     "babel-runtime": "^6.18.0",
     "mocha": "^3.1.2"
   },
-  "homepage": "https://github.com/meikidd/iso-639-1#readme"
+  "homepage": "https://github.com/meikidd/iso-639-1#readme",
+  "engines" : { 
+    "node" : ">=6.0"
+  }
 }
