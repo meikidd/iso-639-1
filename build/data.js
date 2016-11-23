@@ -743,3 +743,4 @@ var LANGUAGES_LIST = {
 };
 
 exports.default = LANGUAGES_LIST;
+module.exports = exports['default'];

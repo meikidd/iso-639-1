@@ -97,3 +97,4 @@ ISO6391.validate = function (code) {
 };
 
 exports.default = ISO6391;
+module.exports = exports['default'];

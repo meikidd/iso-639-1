@@ -1,6 +1,6 @@
 import assert from 'assert';
-import ISO6391 from '../src/index';
-import LANGUAGES_LIST from '../src/data';
+import ISO6391 from '../build/index';
+import LANGUAGES_LIST from '../build/data';
 
 describe('getName()', () => {
   it('en', () => assert.equal(ISO6391.getName('en'), 'English'))
