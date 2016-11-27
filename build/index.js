@@ -28,6 +28,8 @@ var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
+require('babel-polyfill');
+
 var _data = require('./data');
 
 var _data2 = _interopRequireDefault(_data);

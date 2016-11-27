@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import LANGUAGES_LIST from './data';
 
 export default class ISO6391 {
