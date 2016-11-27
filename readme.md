@@ -1,6 +1,6 @@
 # ISO-639-1
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][[travis-url]
+[![Build Status][travis-image]][travis-url]
 
 [travis-image]: https://travis-ci.org/meikidd/iso-639-1.svg?branch=master
 [travis-url]: https://travis-ci.org/meikidd/iso-639-1
