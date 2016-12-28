@@ -40,7 +40,8 @@ var ISO6391 = function ISO6391() {
   (0, _classCallCheck3.default)(this, ISO6391);
 };
 
-ISO6391.getLanguages = function (codes) {
+ISO6391.getLanguages = function () {
+  var codes = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
   return (0, _entries2.default)(_data2.default).filter(function (_ref) {
     var _ref2 = (0, _slicedToArray3.default)(_ref, 2),
         code = _ref2[0],
@@ -77,15 +78,11 @@ ISO6391.getAllNativeNames = function () {
 };
 
 ISO6391.getCode = function (name) {
-  var _Object$entries$find = (0, _entries2.default)(_data2.default).find(function (_ref5) {
-    var _ref6 = (0, _slicedToArray3.default)(_ref5, 2),
-        code = _ref6[0],
-        language = _ref6[1];
 
+  var code = (0, _keys2.default)(_data2.default).find(function (code) {
+    var language = _data2.default[code];
     return language.name.toLowerCase() === name.toLowerCase() || language.nativeName.toLowerCase() === name.toLowerCase();
-  }),
-      _Object$entries$find2 = (0, _slicedToArray3.default)(_Object$entries$find, 1),
-      code = _Object$entries$find2[0];
+  });
 
   return code === undefined ? '' : code;
 };

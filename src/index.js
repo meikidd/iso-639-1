@@ -2,7 +2,7 @@ import 'babel-polyfill';
 import LANGUAGES_LIST from './data';
 
 export default class ISO6391 {
-  static getLanguages = (codes) => (
+  static getLanguages = (codes = []) => (
     Object.entries(LANGUAGES_LIST)
       .filter(([code, language]) => codes.includes(code))
       .map(([code, language]) => ({ ...language, code }))
@@ -17,8 +17,12 @@ export default class ISO6391 {
   static getAllNativeNames = () => Object.values(LANGUAGES_LIST).map(l => l.nativeName)
 
   static getCode = (name) => {
-    const [code] = Object.entries(LANGUAGES_LIST)
-      .find(([code, language]) => language.name.toLowerCase() === name.toLowerCase() || language.nativeName.toLowerCase() === name.toLowerCase())
+
+    const code = Object.keys(LANGUAGES_LIST)
+      .find((code) => {
+        const language = LANGUAGES_LIST[code]
+        return language.name.toLowerCase() === name.toLowerCase() || language.nativeName.toLowerCase() === name.toLowerCase()
+      })
 
     return code === undefined ? '' : code
   }
