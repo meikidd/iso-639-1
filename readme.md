@@ -1,11 +1,14 @@
 # ISO-639-1
-[![NPM version][npm-image]][npm-url]
+[![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
+[![Download Count][download-url]][npm-url]
 
 [travis-image]: https://travis-ci.org/meikidd/iso-639-1.svg?branch=master
 [travis-url]: https://travis-ci.org/meikidd/iso-639-1
 [npm-image]: https://img.shields.io/npm/v/iso-639-1.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/iso-639-1
+[download-url]: https://img.shields.io/npm/dt/iso-639-1.svg?style=flat-square
+
 
 Simple interface for [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) language codes
 
