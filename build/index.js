@@ -28,13 +28,15 @@ var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-require('babel-polyfill');
-
 var _data = require('./data');
 
 var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+if (typeof window !== 'undefined' && !window._babelPolyfill || typeof global !== 'undefined' && !global._babelPolyfill) {
+  require('babel-polyfill');
+}
 
 var ISO6391 = function ISO6391() {
   (0, _classCallCheck3.default)(this, ISO6391);
