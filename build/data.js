@@ -702,7 +702,7 @@ var LANGUAGES_LIST = {
   },
   vi: {
     name: 'Vietnamese',
-    nativeName: 'Việt Nam'
+    nativeName: 'Tiếng Việt'
   },
   vo: {
     name: 'Volapük',
