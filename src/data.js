@@ -681,7 +681,7 @@ const LANGUAGES_LIST = {
   },
   uk: {
     name: 'Ukrainian',
-    nativeName: 'українська мова'
+    nativeName: 'Українська'
   },
   ur: {
     name: 'Urdu',
