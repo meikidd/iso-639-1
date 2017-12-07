@@ -214,7 +214,7 @@ var LANGUAGES_LIST = {
   },
   gn: {
     name: 'Guaraní',
-    nativeName: 'Avañe\'ẽ'
+    nativeName: "Avañe'ẽ"
   },
   gu: {
     name: 'Gujarati',
@@ -586,7 +586,7 @@ var LANGUAGES_LIST = {
   },
   sm: {
     name: 'Samoan',
-    nativeName: 'gagana fa\'a Samoa'
+    nativeName: "gagana fa'a Samoa"
   },
   sn: {
     name: 'Shona',

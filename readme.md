@@ -83,7 +83,7 @@ console.log(ISO6391.getCode('中文')) // 'zh'
 console.log(ISO6391.getAllCodes()) //['aa','ab',...,'zu']
 
 console.log(ISO6391.validate('en')) // true
-console.log(ISO6391.validate('xxx')) // false
+console.log(ISO6391.validate('xx')) // false
 
 console.log(ISO6391.getLanguages(['en', 'zh']))
 // [{code:'en',name:'English',nativeName:'English'},{code:'zh',name:'Chinese',nativeName:'中文'}]
