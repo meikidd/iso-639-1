@@ -1,10 +1,5 @@
 import LANGUAGES_LIST from './data';
 
-if((typeof window !== 'undefined' && !window._babelPolyfill) || 
-  (typeof global !== 'undefined' && !global._babelPolyfill)) {
-  require('babel-polyfill')
-}
-
 export default class ISO6391 {
   static getLanguages = (codes = []) => (
     Object.entries(LANGUAGES_LIST)
