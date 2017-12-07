@@ -74,3 +74,15 @@ describe('getLanguages()', function() {
     ]);
   });
 });
+
+describe('getAllNames()', function() {
+  it('returns a nonempty array', function() {
+    assert(0 < ISO6391.getAllNames().length);
+  });
+});
+
+describe('getAllNativeNames()', function() {
+  it('returns a nonempty array', function() {
+    assert(0 < ISO6391.getAllNativeNames().length);
+  });
+});

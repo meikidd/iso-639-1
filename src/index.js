@@ -1,5 +1,26 @@
 import LANGUAGES_LIST from './data';
 
+function objectValues(object) {
+  const result = [];
+  for (const key of object) {
+    if (object.hasOwnProperty(key)) {
+      result.push(object[key]);
+    }
+  }
+  return result;
+}
+
+function arrayFind(array, fn) {
+  const len = array.length;
+  for (let i=0; i < len; i++) {
+    const item = array[i];
+    if (fn(item)) {
+      return item;
+    }
+  }
+  return undefined;
+}
+
 export default class ISO6391 {
   static getLanguages(codes = []) {
     return codes.map(code => ({
@@ -14,7 +35,7 @@ export default class ISO6391 {
   }
 
   static getAllNames() {
-    return Object.values(LANGUAGES_LIST).map(l => l.name);
+    return objectValues(LANGUAGES_LIST).map(l => l.name);
   }
 
   static getNativeName(code) {
@@ -22,11 +43,11 @@ export default class ISO6391 {
   }
 
   static getAllNativeNames() {
-    return Object.values(LANGUAGES_LIST).map(l => l.nativeName);
+    return objectValues(LANGUAGES_LIST).map(l => l.nativeName);
   }
 
   static getCode(name) {
-    const code = Object.keys(LANGUAGES_LIST).find(code => {
+    const code = arrayFind(Object.keys(LANGUAGES_LIST), code => {
       const language = LANGUAGES_LIST[code];
 
       return (
