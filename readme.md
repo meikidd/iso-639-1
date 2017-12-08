@@ -18,6 +18,29 @@ Simple interface for [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1
 npm install iso-639-1
 ```
 
+## Usage
+
+### Node.js
+
+```
+const ISO6391 = require('iso-639-1')
+console.log(ISO6391.getName('en')) // 'English'
+```
+
+### Browsers
+
+HTML
+
+```
+<script type="text/javascript" src="./node_modules/iso-639-1/build/index.js"></script>
+```
+
+Visit global variable ISO6391 in js
+
+```
+console.log(ISO6391.getName('en')) // 'English'
+```
+
 ## Methods
 
 ### getName(code)
@@ -69,7 +92,7 @@ Get the array of the language objects by the given codes
 ## Usage
 
 ```
-var ISO6391 = require('./iso-639-1')
+const ISO6391 = require('iso-639-1')
 
 console.log(ISO6391.getName('zh')) // 'Chinese'
 console.log(ISO6391.getNativeName('zh')) // '中文'
