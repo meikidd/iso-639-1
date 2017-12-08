@@ -1,6 +1,5 @@
 const assert = require('assert');
 const ISO6391 = require('../build/index');
-const LANGUAGES_LIST = require('../build/data');
 
 describe('getName()', function() {
   it('en', function() {
