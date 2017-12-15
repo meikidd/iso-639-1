@@ -16,5 +16,5 @@ declare module "iso-639-1" {
 
   let localeCode: ISO6391;
 
-  export = localeCode;
+  export default localeCode;
 }
