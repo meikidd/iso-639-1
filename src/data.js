@@ -735,6 +735,22 @@ const LANGUAGES_LIST = {
     name: 'Zulu',
     nativeName: 'isiZulu',
   },
+  cnh: {
+    name: 'Hakha Chin',
+    nativeName: 'Hakha Chin',
+  },
+  dsb: {
+    name: 'Lower Sorbian',
+    nativeName: 'Dolnoserbšćina',
+  },
+  hsb: {
+    name: 'Upper Sorbian',
+    nativeName: 'Hornjoserbšćina',
+  },
+  kab: {
+    name: 'Kabyle',
+    nativeName: 'Taqbaylit',
+  },
 };
 
 export default LANGUAGES_LIST;
