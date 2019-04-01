@@ -537,7 +537,7 @@ const LANGUAGES_LIST = {
   },
   ro: {
     name: 'Romanian',
-    nativeName: 'limba română',
+    nativeName: 'Română',
   },
   ru: {
     name: 'Russian',
