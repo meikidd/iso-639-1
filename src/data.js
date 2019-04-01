@@ -145,7 +145,7 @@ const LANGUAGES_LIST = {
   },
   el: {
     name: 'Greek',
-    nativeName: 'ελληνικά',
+    nativeName: 'Ελληνικά',
   },
   en: {
     name: 'English',
