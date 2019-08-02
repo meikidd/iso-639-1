@@ -42,6 +42,6 @@ export default class ISO6391 {
   }
 
   static validate(code) {
-    return LANGUAGES_LIST[code] !== undefined;
+    return LANGUAGES_LIST.hasOwnProperty(code);
   }
 }
