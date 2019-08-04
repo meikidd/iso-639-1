@@ -11,6 +11,9 @@ describe('getName()', function() {
   it('xx', function() {
     assert.equal(ISO6391.getName('xx'), '');
   });
+  it('toString', function() {
+    assert.equal(ISO6391.getName('toString'), '');
+  });
 });
 
 describe('getNativeName()', function() {
@@ -22,6 +25,9 @@ describe('getNativeName()', function() {
   });
   it('xx', function() {
     assert.equal(ISO6391.getNativeName('xx'), '');
+  });
+  it('toString', function() {
+    assert.equal(ISO6391.getNativeName('toString'), '');
   });
 });
 
@@ -38,6 +44,9 @@ describe('getCode()', function() {
   it('xx', function() {
     assert.equal(ISO6391.getCode('xx'), '');
   });
+  it('toString', function() {
+    assert.equal(ISO6391.getCode('toString'), '');
+  });
 });
 
 describe('validate()', function() {
@@ -50,11 +59,14 @@ describe('validate()', function() {
   it('xx', function() {
     assert.equal(ISO6391.validate('xx'), false);
   });
+  it('toString', function() {
+    assert.equal(ISO6391.validate('toString'), false);
+  });
 });
 
 describe('getLanguages()', function() {
-  it('[en, zh, xx]', function() {
-    assert.deepEqual(ISO6391.getLanguages(['en', 'zh', 'xx']), [
+  it('[en, zh, xx, toString]', function() {
+    assert.deepEqual(ISO6391.getLanguages(['en', 'zh', 'xx', 'toString']), [
       {
         code: 'en',
         name: 'English',
@@ -67,6 +79,11 @@ describe('getLanguages()', function() {
       },
       {
         code: 'xx',
+        name: '',
+        nativeName: '',
+      },
+      {
+        code: 'toString',
         name: '',
         nativeName: '',
       },
