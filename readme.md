@@ -22,23 +22,30 @@ npm install iso-639-1
 
 ### Node.js
 
+```javascript
+const ISO6391 = require('iso-639-1');
+console.log(ISO6391.getName('en')); // 'English'
 ```
-const ISO6391 = require('iso-639-1')
-console.log(ISO6391.getName('en')) // 'English'
+
+### ES Module
+
+```javascript
+import ISO6391 from 'iso-639-1';
+console.log(ISO6391.getName('en')); // 'English'
 ```
 
 ### Browsers
 
 HTML
 
-```
+```html
 <script type="text/javascript" src="./node_modules/iso-639-1/build/index.js"></script>
 ```
 
 Visit global variable ISO6391 in js
 
-```
-console.log(ISO6391.getName('en')) // 'English'
+```javascript
+console.log(ISO6391.getName('en')); // 'English'
 ```
 
 ## Methods
@@ -89,7 +96,7 @@ Check whether the given code is in the list of [ISO-639-1](https://en.wikipedia.
 
 Get the array of the language objects by the given codes
 
-## Usage
+## Example
 
 ```
 const ISO6391 = require('iso-639-1')
