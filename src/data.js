@@ -399,6 +399,10 @@ const LANGUAGES_LIST = {
     name: 'Latvian',
     nativeName: 'latviešu valoda',
   },
+  me: {
+      name: 'Montenegrin',
+      nativeName: 'crnogorski jezik',
+  },
   mg: {
     name: 'Malagasy',
     nativeName: 'fiteny malagasy',
