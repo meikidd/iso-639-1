@@ -261,7 +261,7 @@ const LANGUAGES_LIST = {
   },
   id: {
     name: 'Indonesian',
-    nativeName: 'Indonesian',
+    nativeName: 'Bahasa Indonesia',
   },
   ie: {
     name: 'Interlingue',
@@ -429,7 +429,7 @@ const LANGUAGES_LIST = {
   },
   ms: {
     name: 'Malay',
-    nativeName: 'هاس ملايو‎',
+    nativeName: 'Bahasa Malaysia',
   },
   mt: {
     name: 'Maltese',
