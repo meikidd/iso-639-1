@@ -89,7 +89,7 @@ const LANGUAGES_LIST = {
   },
   ca: {
     name: 'Catalan',
-    nativeName: 'català',
+    nativeName: 'Català',
   },
   ce: {
     name: 'Chechen',
