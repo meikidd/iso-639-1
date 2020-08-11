@@ -613,7 +613,7 @@ const LANGUAGES_LIST = {
   },
   sv: {
     name: 'Swedish',
-    nativeName: 'svenska',
+    nativeName: 'Svenska',
   },
   sw: {
     name: 'Swahili',
