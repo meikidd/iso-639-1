@@ -1022,7 +1022,7 @@ var LANGUAGES_LIST = {
   },
   hu: {
     name: 'Hungarian',
-    nativeName: 'magyar'
+    nativeName: 'Magyar'
   },
   hy: {
     name: 'Armenian',
@@ -1390,7 +1390,7 @@ var LANGUAGES_LIST = {
   },
   sv: {
     name: 'Swedish',
-    nativeName: 'svenska'
+    nativeName: 'Svenska'
   },
   sw: {
     name: 'Swahili',
