@@ -245,7 +245,7 @@ const LANGUAGES_LIST = {
   },
   hu: {
     name: 'Hungarian',
-    nativeName: 'magyar',
+    nativeName: 'Magyar',
   },
   hy: {
     name: 'Armenian',
