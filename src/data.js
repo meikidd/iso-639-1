@@ -76,7 +76,7 @@ const LANGUAGES_LIST = {
     nativeName: 'বাংলা',
   },
   bo: {
-    name: 'Tibetan Standard',
+    name: 'Tibetan',
     nativeName: 'བོད་ཡིག',
   },
   br: {
