@@ -1014,7 +1014,7 @@ var LANGUAGES_LIST = {
   },
   hr: {
     name: 'Croatian',
-    nativeName: 'hrvatski jezik'
+    nativeName: 'Hrvatski'
   },
   ht: {
     name: 'Haitian',
@@ -1353,7 +1353,7 @@ var LANGUAGES_LIST = {
     nativeName: 'slovenčina'
   },
   sl: {
-    name: 'Slovene',
+    name: 'Slovenian',
     nativeName: 'slovenski jezik'
   },
   sm: {
