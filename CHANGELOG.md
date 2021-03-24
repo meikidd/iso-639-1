@@ -1,6 +1,8 @@
 # iso-639-1 Changelog
 
 
+## v2.1.9
+- Change hu native name "Magyar" -> "magyar" [#40](https://github.com/meikidd/iso-639-1/pull/40)
 ## v2.1.8
 - Change hr native name "hrvatski jezik" -> "Hrvatski"
 - Change sl English name "Slovene" -> "Slovenian"
