@@ -1022,7 +1022,7 @@ var LANGUAGES_LIST = {
   },
   hu: {
     name: 'Hungarian',
-    nativeName: 'Magyar'
+    nativeName: 'magyar'
   },
   hy: {
     name: 'Armenian',
