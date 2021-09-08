@@ -1,7 +1,7 @@
 {
   "name": "iso-639-1",
   "version": "2.1.9",
-  "description": "ISO-639-1 codes",
+  "description": "ISO-639-1 koder",
   "main": "build/index.js",
   "module": "src/index.js",
   "typings": "index.d.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meikidd/iso-639-1.git"
+    "url": "git+https://github.com/jonasclement/iso-639-1-da.git"
   },
   "keywords": [
     "iso",
@@ -20,12 +20,15 @@
     "language",
     "language code",
     "locale",
-    "locale code"
+    "locale code",
+    "sprog",
+    "dansk sprog",
+    "danish language code"
   ],
-  "author": "meikidd <meikidd@gmail.com>",
+  "author": "Original: meikidd <meikidd@gmail.com>, Fork: Jonas Clément <contact@jonasclement.dk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meikidd/iso-639-1/issues"
+    "url": "https://github.com/jonasclement/iso-639-1-da/issues"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -39,7 +42,7 @@
     "mocha": "^4.0.1",
     "webpack": "^3.10.0"
   },
-  "homepage": "https://github.com/meikidd/iso-639-1#readme",
+  "homepage": "https://github.com/jonasclement/iso-639-1-da#readme",
   "engines": {
     "node": ">=6.0"
   }
