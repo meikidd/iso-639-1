@@ -513,7 +513,7 @@ const LANGUAGES_LIST = {
   },
   pl: {
     name: 'Polish',
-    nativeName: 'język polski',
+    nativeName: 'Polski',
   },
   ps: {
     name: 'Pashto',
