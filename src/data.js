@@ -577,7 +577,7 @@ const LANGUAGES_LIST = {
   },
   sl: {
     name: 'Slovenian',
-    nativeName: 'slovenski jezik',
+    nativeName: 'slovenščina',
   },
   sm: {
     name: 'Samoan',
