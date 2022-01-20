@@ -836,10 +836,6 @@ var LANGUAGES_LIST = {
     name: 'Bulgarian',
     nativeName: 'български език'
   },
-  bh: {
-    name: 'Bihari',
-    nativeName: 'भोजपुरी'
-  },
   bi: {
     name: 'Bislama',
     nativeName: 'Bislama'
@@ -910,7 +906,7 @@ var LANGUAGES_LIST = {
   },
   dv: {
     name: 'Divehi',
-    nativeName: 'Dhivehi'
+    nativeName: 'ދިވެހި'
   },
   dz: {
     name: 'Dzongkha',
@@ -958,7 +954,7 @@ var LANGUAGES_LIST = {
   },
   fj: {
     name: 'Fijian',
-    nativeName: 'Vakaviti'
+    nativeName: 'vosa Vakaviti'
   },
   fo: {
     name: 'Faroese',
@@ -1162,7 +1158,7 @@ var LANGUAGES_LIST = {
   },
   lo: {
     name: 'Lao',
-    nativeName: 'ພາສາ'
+    nativeName: 'ພາສາລາວ'
   },
   lt: {
     name: 'Lithuanian',
@@ -1170,7 +1166,7 @@ var LANGUAGES_LIST = {
   },
   lu: {
     name: 'Luba-Katanga',
-    nativeName: 'Tshiluba'
+    nativeName: 'Kiluba'
   },
   lv: {
     name: 'Latvian',
@@ -1206,7 +1202,7 @@ var LANGUAGES_LIST = {
   },
   ms: {
     name: 'Malay',
-    nativeName: 'Bahasa Malaysia'
+    nativeName: 'Bahasa Melayu'
   },
   mt: {
     name: 'Maltese',
@@ -1218,7 +1214,7 @@ var LANGUAGES_LIST = {
   },
   na: {
     name: 'Nauru',
-    nativeName: 'Ekakairũ Naoero'
+    nativeName: 'Dorerin Naoero'
   },
   nb: {
     name: 'Norwegian Bokmål',
@@ -1418,7 +1414,7 @@ var LANGUAGES_LIST = {
   },
   tk: {
     name: 'Turkmen',
-    nativeName: 'Türkmen'
+    nativeName: 'Türkmençe'
   },
   tl: {
     name: 'Tagalog',
