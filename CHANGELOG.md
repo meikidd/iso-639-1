@@ -1,5 +1,15 @@
 # iso-639-1 Changelog
 
+## v2.1.12
+- remove 'bh' [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- fj native name changed to "vosa Vakaviti" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- dv native name changed to "ދިވެހި" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- lo native name changed to "ພາສາລາວ" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- ms native name changed to "Bahasa Melayu" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- lu native name changed to "Kiluba" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- na native name changed to "Dorerin Naoero" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+- tk native name changed to "Türkmençe" [#51](https://github.com/meikidd/iso-639-1/pull/51)
+
 ## v2.1.11
 - Slovenian native name "slovenski jezik" -> "slovenščina" [#49](https://github.com/meikidd/iso-639-1/pull/49)
 
