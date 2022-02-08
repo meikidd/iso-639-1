@@ -1,5 +1,8 @@
 # iso-639-1 Changelog
 
+## v2.1.13
+- update Arabic native name [#50](https://github.com/meikidd/iso-639-1/pull/50)
+
 ## v2.1.12
 - remove 'bh' [#51](https://github.com/meikidd/iso-639-1/pull/51)
 - fj native name changed to "vosa Vakaviti" [#51](https://github.com/meikidd/iso-639-1/pull/51)
