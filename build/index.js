@@ -244,7 +244,7 @@ module.exports = function (it) {
 /***/ "./node_modules/core-js/library/modules/_core.js":
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.5.1' };
+var core = module.exports = { version: '2.6.9' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -332,6 +332,7 @@ var global = __webpack_require__("./node_modules/core-js/library/modules/_global
 var core = __webpack_require__("./node_modules/core-js/library/modules/_core.js");
 var ctx = __webpack_require__("./node_modules/core-js/library/modules/_ctx.js");
 var hide = __webpack_require__("./node_modules/core-js/library/modules/_hide.js");
+var has = __webpack_require__("./node_modules/core-js/library/modules/_has.js");
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -349,7 +350,7 @@ var $export = function (type, name, source) {
   for (key in source) {
     // contains in native
     own = !IS_FORCED && target && target[key] !== undefined;
-    if (own && key in exports) continue;
+    if (own && has(exports, key)) continue;
     // export native or passed
     out = own ? target[key] : source[key];
     // prevent global pollution for namespaces
@@ -479,6 +480,14 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_library.js":
+/***/ (function(module, exports) {
+
+module.exports = true;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_object-dp.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -568,6 +577,7 @@ module.exports = function (KEY, exec) {
 /***/ "./node_modules/core-js/library/modules/_object-to-array.js":
 /***/ (function(module, exports, __webpack_require__) {
 
+var DESCRIPTORS = __webpack_require__("./node_modules/core-js/library/modules/_descriptors.js");
 var getKeys = __webpack_require__("./node_modules/core-js/library/modules/_object-keys.js");
 var toIObject = __webpack_require__("./node_modules/core-js/library/modules/_to-iobject.js");
 var isEnum = __webpack_require__("./node_modules/core-js/library/modules/_object-pie.js").f;
@@ -579,9 +589,13 @@ module.exports = function (isEntries) {
     var i = 0;
     var result = [];
     var key;
-    while (length > i) if (isEnum.call(O, key = keys[i++])) {
-      result.push(isEntries ? [key, O[key]] : O[key]);
-    } return result;
+    while (length > i) {
+      key = keys[i++];
+      if (!DESCRIPTORS || isEnum.call(O, key)) {
+        result.push(isEntries ? [key, O[key]] : O[key]);
+      }
+    }
+    return result;
   };
 };
 
@@ -618,12 +632,18 @@ module.exports = function (key) {
 /***/ "./node_modules/core-js/library/modules/_shared.js":
 /***/ (function(module, exports, __webpack_require__) {
 
+var core = __webpack_require__("./node_modules/core-js/library/modules/_core.js");
 var global = __webpack_require__("./node_modules/core-js/library/modules/_global.js");
 var SHARED = '__core-js_shared__';
 var store = global[SHARED] || (global[SHARED] = {});
-module.exports = function (key) {
-  return store[key] || (store[key] = {});
-};
+
+(module.exports = function (key, value) {
+  return store[key] || (store[key] = value !== undefined ? value : {});
+})('versions', []).push({
+  version: core.version,
+  mode: __webpack_require__("./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+});
 
 
 /***/ }),
