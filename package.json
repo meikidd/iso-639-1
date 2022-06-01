@@ -1,6 +1,6 @@
 {
   "name": "iso-639-1",
-  "version": "2.1.13",
+  "version": "2.1.14",
   "description": "ISO-639-1 codes",
   "main": "build/index.js",
   "module": "src/index.js",
