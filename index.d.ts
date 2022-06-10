@@ -185,14 +185,14 @@ declare module 'iso-639-1' {
     | 'zu'
 
   interface ISO6391 {
-    getName: (code: LanguageCode) => string;
+    getName: (code: string) => string;
     getAllNames: () => Array<string>;
-    getNativeName: (code: LanguageCode) => string;
+    getNativeName: (code: string) => string;
     getAllNativeNames: () => Array<string>;
     getCode: (name: string) => LanguageCode;
     getAllCodes: () => Array<LanguageCode>;
-    validate: (code: LanguageCode) => boolean;
-    getLanguages: (codes: Array<LanguageCode>) => Array<{
+    validate: (code: string) => boolean;
+    getLanguages: (codes: Array<string>) => Array<{
       code: LanguageCode;
       name: string;
       nativeName: string;
