@@ -1,5 +1,7 @@
 # iso-639-1 Changelog
 
+## v2.1.15
+- Change parameters type "LanguageCode" to "string"
 ## v2.1.14
 - Bump async from 2.6.0 to 2.6.4 [#53](https://github.com/meikidd/iso-639-1/pull/53)
 - Add a type to list the langage codes in the TS definition file [#55](https://github.com/meikidd/iso-639-1/pull/55)
