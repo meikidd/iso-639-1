@@ -1,5 +1,8 @@
 # iso-639-1 Changelog
 
+## v3.0.0
+- Export ESM module
+
 ## v2.1.15
 - Change parameters type "LanguageCode" to "string"
 ## v2.1.14
