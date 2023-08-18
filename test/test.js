@@ -1,5 +1,5 @@
 const assert = require('assert');
-const ISO6391 = require('../build/index');
+const ISO6391 = require('../src/index');
 
 describe('getName()', function() {
   it('en', function() {

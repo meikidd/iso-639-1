@@ -1,6 +1,6 @@
-import LANGUAGES_LIST from './data';
+const LANGUAGES_LIST = require('./data.js');
 
-export default class ISO6391 {
+module.exports = class ISO6391 {
   static getLanguages(codes = []) {
     return codes.map(code => ({
       code,

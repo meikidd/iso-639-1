@@ -733,4 +733,4 @@ const LANGUAGES_LIST = {
   },
 };
 
-export default LANGUAGES_LIST;
+module.exports = LANGUAGES_LIST;
