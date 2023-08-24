@@ -1,7 +1,10 @@
 # iso-639-1 Changelog
 
+## v3.0.1
+- Fix error TS7016 [#68](https://github.com/meikidd/iso-639-1/issues/68)
+
 ## v3.0.0
-- Export ESM module
+- Export ESM module [#67](https://github.com/meikidd/iso-639-1/issues/67)
 
 ## v2.1.15
 - Change parameters type "LanguageCode" to "string"
