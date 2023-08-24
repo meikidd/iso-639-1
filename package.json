@@ -4,10 +4,6 @@
   "description": "ISO-639-1 codes",
   "main": "./src/index.js",
   "type": "commonjs",
-  "exports": {
-    "import": "./src/wrapper.mjs",
-    "require": "./src/index.js"
-  },
   "typings": "index.d.ts",
   "scripts": {
     "build": "webpack",
