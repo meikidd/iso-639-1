@@ -59,6 +59,10 @@ const LANGUAGES_LIST = {
     name: 'Bulgarian',
     nativeName: 'български език',
   },
+  bh: {
+    name: 'Bihari',
+    nativeName: 'भोजपुरी',
+  },
   bi: {
     name: 'Bislama',
     nativeName: 'Bislama',
@@ -562,6 +566,10 @@ const LANGUAGES_LIST = {
   sg: {
     name: 'Sango',
     nativeName: 'yângâ tî sängö',
+  },
+  sh: {
+    name: 'Serbo-Croatian',
+    nativeName: 'srpskohrvatski jezik',
   },
   si: {
     name: 'Sinhala',
