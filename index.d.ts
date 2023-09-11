@@ -189,7 +189,7 @@ declare module 'iso-639-1' {
     getAllNames: () => Array<string>;
     getNativeName: (code: string) => string;
     getAllNativeNames: () => Array<string>;
-    getCode: (name: string) => LanguageCode;
+    getCode: (name: string) => LanguageCode | "";
     getAllCodes: () => Array<LanguageCode>;
     validate: (code: string) => boolean;
     getLanguages: (codes: Array<string>) => Array<{
