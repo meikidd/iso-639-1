@@ -1,5 +1,10 @@
 # iso-639-1 Changelog
 
+
+## v3.1.0
+- Fix type for getCode [#74](https://github.com/meikidd/iso-639-1/pull/74)
+- Improve performance [#72](https://github.com/meikidd/iso-639-1/pull/72)
+
 ## v3.0.1
 - Fix error TS7016 [#68](https://github.com/meikidd/iso-639-1/issues/68)
 
