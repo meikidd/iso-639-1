@@ -1,12 +1,29 @@
 const LANGUAGES_LIST = require('./data.js');
 
+const LANGUAGES = {};
+const LANGUAGES_BY_NAME = {};
+const LANGUAGE_CODES = [];
+const LANGUAGE_NAMES = [];
+const LANGUAGE_NATIVE_NAMES = [];
+
+for (const code in LANGUAGES_LIST) {
+  const { name, nativeName } = LANGUAGES_LIST[code];
+  LANGUAGES[code] =
+    LANGUAGES_BY_NAME[name.toLowerCase()] =
+    LANGUAGES_BY_NAME[nativeName.toLowerCase()] =
+      { code, name, nativeName };
+  LANGUAGE_CODES.push(code);
+  LANGUAGE_NAMES.push(name);
+  LANGUAGE_NATIVE_NAMES.push(nativeName);
+}
+
 module.exports = class ISO6391 {
   static getLanguages(codes = []) {
-    return codes.map(code => ({
-      code,
-      name: ISO6391.getName(code),
-      nativeName: ISO6391.getNativeName(code),
-    }));
+    return codes.map(code =>
+      ISO6391.validate(code)
+        ? Object.assign({}, LANGUAGES[code])
+        : { code, name: '', nativeName: '' }
+    );
   }
 
   static getName(code) {
@@ -14,7 +31,7 @@ module.exports = class ISO6391 {
   }
 
   static getAllNames() {
-    return Object.values(LANGUAGES_LIST).map(l => l.name);
+    return LANGUAGE_NAMES.slice();
   }
 
   static getNativeName(code) {
@@ -22,23 +39,18 @@ module.exports = class ISO6391 {
   }
 
   static getAllNativeNames() {
-    return Object.values(LANGUAGES_LIST).map(l => l.nativeName);
+    return LANGUAGE_NATIVE_NAMES.slice();
   }
 
   static getCode(name) {
-    const code = Object.keys(LANGUAGES_LIST).find(code => {
-      const language = LANGUAGES_LIST[code];
-
-      return (
-        language.name.toLowerCase() === name.toLowerCase() ||
-        language.nativeName.toLowerCase() === name.toLowerCase()
-      );
-    });
-    return code || '';
+    name = name.toLowerCase();
+    return LANGUAGES_BY_NAME.hasOwnProperty(name)
+      ? LANGUAGES_BY_NAME[name].code
+      : '';
   }
 
   static getAllCodes() {
-    return Object.keys(LANGUAGES_LIST);
+    return LANGUAGE_CODES.slice();
   }
 
   static validate(code) {
