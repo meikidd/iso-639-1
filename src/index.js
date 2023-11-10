@@ -1,4 +1,4 @@
-const LANGUAGES_LIST = require("./data.js");
+const LANGUAGES_LIST = require('./data.js');
 
 const LANGUAGES = {};
 const LANGUAGES_BY_NAME = {};
@@ -19,19 +19,15 @@ for (const code in LANGUAGES_LIST) {
 
 module.exports = class ISO6391 {
   static getLanguages(codes = []) {
-    return codes.map((code) =>
+    return codes.map(code =>
       ISO6391.validate(code)
         ? Object.assign({}, LANGUAGES[code])
-        : { code, name: "", nativeName: "" }
+        : { code, name: '', nativeName: '' }
     );
   }
 
-  static getLanguage(code) {
-    return this.getLanguages([code])[0];
-  }
-
   static getName(code) {
-    return ISO6391.validate(code) ? LANGUAGES_LIST[code].name : "";
+    return ISO6391.validate(code) ? LANGUAGES_LIST[code].name : '';
   }
 
   static getAllNames() {
@@ -39,7 +35,7 @@ module.exports = class ISO6391 {
   }
 
   static getNativeName(code) {
-    return ISO6391.validate(code) ? LANGUAGES_LIST[code].nativeName : "";
+    return ISO6391.validate(code) ? LANGUAGES_LIST[code].nativeName : '';
   }
 
   static getAllNativeNames() {
@@ -50,7 +46,7 @@ module.exports = class ISO6391 {
     name = name.toLowerCase();
     return LANGUAGES_BY_NAME.hasOwnProperty(name)
       ? LANGUAGES_BY_NAME[name].code
-      : "";
+      : '';
   }
 
   static getAllCodes() {
@@ -60,4 +56,4 @@ module.exports = class ISO6391 {
   static validate(code) {
     return LANGUAGES_LIST.hasOwnProperty(code);
   }
-};
+}
