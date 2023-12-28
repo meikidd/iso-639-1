@@ -1,6 +1,6 @@
 declare module 'iso-639-1' {
   export type LanguageCode =
-    'aa'
+    | 'aa'
     | 'ab'
     | 'ae'
     | 'af'
@@ -130,6 +130,7 @@ declare module 'iso-639-1' {
     | 'pl'
     | 'ps'
     | 'pt'
+    | 'ptBR'
     | 'qu'
     | 'rm'
     | 'rn'
@@ -182,14 +183,14 @@ declare module 'iso-639-1' {
     | 'yo'
     | 'za'
     | 'zh'
-    | 'zu'
+    | 'zu';
 
   interface ISO6391 {
     getName: (code: string) => string;
     getAllNames: () => Array<string>;
     getNativeName: (code: string) => string;
     getAllNativeNames: () => Array<string>;
-    getCode: (name: string) => LanguageCode | "";
+    getCode: (name: string) => LanguageCode | '';
     getAllCodes: () => Array<LanguageCode>;
     validate: (code: string) => boolean;
     getLanguages: (codes: Array<string>) => Array<{
