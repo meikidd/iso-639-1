@@ -207,6 +207,10 @@ const LANGUAGES_LIST = {
     name: 'Guaraní',
     nativeName: "Avañe'ẽ",
   },
+  gr: {
+    name: 'Greenland',
+    nativeName: 'Kalaallisut',
+  },
   gu: {
     name: 'Gujarati',
     nativeName: 'ગુજરાતી',
