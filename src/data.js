@@ -181,7 +181,7 @@ const LANGUAGES_LIST = {
   },
   fo: {
     name: 'Faroese',
-    nativeName: 'føroyskt',
+    nativeName: 'Føroyskt',
   },
   fr: {
     name: 'French',
