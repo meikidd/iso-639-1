@@ -1,8 +1,11 @@
 # iso-639-1 Changelog
 
 
+## v3.1.2
+- Capitalize Faroese native [#82](https://github.com/meikidd/iso-639-1/pull/82)
+
 ## v3.1.1
-- Capitialize Danish native [#80](https://github.com/meikidd/iso-639-1/pull/80)
+- Capitalize Danish native [#80](https://github.com/meikidd/iso-639-1/pull/80)
 
 ## v3.1.0
 - Fix type for getCode [#74](https://github.com/meikidd/iso-639-1/pull/74)
