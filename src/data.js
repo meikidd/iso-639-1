@@ -207,10 +207,6 @@ const LANGUAGES_LIST = {
     name: 'Guaraní',
     nativeName: "Avañe'ẽ",
   },
-  gr: {
-    name: 'Greenland',
-    nativeName: 'Kalaallisut',
-  },
   gu: {
     name: 'Gujarati',
     nativeName: 'ગુજરાતી',
@@ -324,8 +320,8 @@ const LANGUAGES_LIST = {
     nativeName: 'қазақ тілі',
   },
   kl: {
-    name: 'Kalaallisut',
-    nativeName: 'kalaallisut',
+    name: 'Greenland',
+    nativeName: 'Kalaallisut',
   },
   km: {
     name: 'Khmer',
