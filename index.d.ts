@@ -191,7 +191,7 @@ declare module 'iso-639-1' {
     getAllNativeNames: () => Array<string>;
     getCode: (name: string) => LanguageCode | "";
     getAllCodes: () => Array<LanguageCode>;
-    validate: (code: string) => boolean;
+    validate: (code: string) => code is LanguageCode;
     getLanguages: (codes: Array<string>) => Array<{
       code: LanguageCode;
       name: string;
