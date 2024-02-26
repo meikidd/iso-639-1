@@ -26,6 +26,10 @@ module.exports = class ISO6391 {
     );
   }
 
+  static getLanguage(code) {
+    return this.getLanguages([code])[0];
+  }
+  
   static getName(code) {
     return ISO6391.validate(code) ? LANGUAGES_LIST[code].name : '';
   }
