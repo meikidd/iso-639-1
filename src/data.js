@@ -29,7 +29,7 @@ const LANGUAGES_LIST = {
   },
   ar: {
     name: 'Arabic',
-    nativeName: 'اَلْعَرَبِيَّةُ',
+    nativeName: 'العربية',
   },
   as: {
     name: 'Assamese',
