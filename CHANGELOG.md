@@ -1,6 +1,9 @@
 # iso-639-1 Changelog
 
 
+## v3.1.3
+- Remove unnecessary diacritics [#84](https://github.com/meikidd/iso-639-1/pull/84)
+
 ## v3.1.2
 - Capitalize Faroese native [#82](https://github.com/meikidd/iso-639-1/pull/82)
 
