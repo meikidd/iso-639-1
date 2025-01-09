@@ -675,7 +675,7 @@ const LANGUAGES_LIST = {
     name: 'Uyghur',
     nativeName: 'ئۇيغۇرچە‎',
   },
-  uk: {
+  ua: {
     name: 'Ukrainian',
     nativeName: 'Українська',
   },
