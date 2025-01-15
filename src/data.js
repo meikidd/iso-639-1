@@ -105,7 +105,7 @@ const LANGUAGES_LIST = {
   },
   cs: {
     name: 'Czech',
-    nativeName: 'čeština',
+    nativeName: 'Čeština',
   },
   cu: {
     name: 'Old Church Slavonic',
@@ -569,7 +569,7 @@ const LANGUAGES_LIST = {
   },
   sk: {
     name: 'Slovak',
-    nativeName: 'slovenčina',
+    nativeName: 'Slovenčina',
   },
   sl: {
     name: 'Slovenian',
