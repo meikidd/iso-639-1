@@ -184,6 +184,12 @@ declare module 'iso-639-1' {
     | 'zh'
     | 'zu'
 
+  interface Language {
+    code: LanguageCode;
+    name: string;
+    nativeName: string;
+  }
+  
   interface ISO6391 {
     getName: (code: string) => string;
     getAllNames: () => Array<string>;
@@ -192,11 +198,8 @@ declare module 'iso-639-1' {
     getCode: (name: string) => LanguageCode | "";
     getAllCodes: () => Array<LanguageCode>;
     validate: (code: string) => boolean;
-    getLanguages: (codes: Array<string>) => Array<{
-      code: LanguageCode;
-      name: string;
-      nativeName: string;
-    }>;
+    getLanguages: (codes: Array<string>) => Array<Language>;
+    getLanguage: (code: string) => Language;
   }
 
   let localeCode: ISO6391;
