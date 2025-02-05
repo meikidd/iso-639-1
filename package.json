@@ -1,6 +1,6 @@
 {
   "name": "iso-639-1",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "description": "ISO-639-1 codes",
   "main": "./src/index.js",
   "type": "commonjs",
