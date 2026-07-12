@@ -320,8 +320,8 @@ const LANGUAGES_LIST = {
     nativeName: 'қазақ тілі',
   },
   kl: {
-    name: 'Kalaallisut',
-    nativeName: 'kalaallisut',
+    name: 'Greenland',
+    nativeName: 'Kalaallisut',
   },
   km: {
     name: 'Khmer',
