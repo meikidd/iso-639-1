@@ -569,7 +569,7 @@ const LANGUAGES_LIST = {
   },
   sk: {
     name: 'Slovak',
-    nativeName: 'slovenčtina',
+    nativeName: 'slovenčina',
   },
   sl: {
     name: 'Slovenian',
