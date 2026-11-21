@@ -1,5 +1,13 @@
 # iso-639-1 Changelog
 
+## v3.1.7
+
+- Fix native language name for Slovak [#90](https://github.com/meikidd/iso-639-1/pull/90)
+
+## v3.1.6
+
+- Use lowercase native language names for Czech and Slovak [#86](https://github.com/meikidd/iso-639-1/issues/86)
+
 ## v3.1.5
 
 - ISO6391.validate() type predicate [#87](https://github.com/meikidd/iso-639-1/pull/87)
